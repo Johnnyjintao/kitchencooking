@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#333333" >
+        
+      
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号管理"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+            />
+        </RelativeLayout>
+        
+        <RelativeLayout
+        android:id="@+id/rl_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="头像"
+            android:textColor="#353535"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_meicon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user_icon" 
+            android:onClick="ivImage"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#e3e3e3" />
+	
+	<RelativeLayout
+        android:id="@+id/rluser"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" 
+        android:onClick="rluser"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="用户名"
+            android:textColor="#353535"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_mename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="35dip"
+            android:text="昵称"
+            android:textColor="#ff999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+	
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#e3e3e3" />
+	
+	
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="cancel"
+	    android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+	    android:text="注销"
+	    />
+	
+</LinearLayout>

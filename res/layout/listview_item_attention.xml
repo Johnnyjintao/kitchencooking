@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:zhy="http://schemas.android.com/apk/res/com.example.kitchencooking"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/listitem_selector"
+    >
+    
+    
+    <com.example.kitchencooking.CircleImageView
+        android:id="@+id/iv_athead"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/tou"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        />
+    
+        
+        <TextView
+	    android:id="@+id/tv_atdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="周杰伦"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/iv_athead"
+        android:layout_centerVertical="true"
+        android:textSize="15sp"
+        android:textColor="@android:color/darker_gray"
+        />
+        
+	 
+	
+	 
+</RelativeLayout>

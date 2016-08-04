@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+tools:context=".SearchActivity" 
+android:layout_height="match_parent" 
+android:layout_width="match_parent" 
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+>
+			
+	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#333333"
+            android:paddingTop="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+		
+			
+	<RelativeLayout 
+	    android:layout_height="wrap_content" 
+		android:layout_width="match_parent" 
+		android:fitsSystemWindows="true" 
+		android:clipToPadding="true" 
+		android:orientation="horizontal"
+		android:background="#333333" 
+		android:id="@+id/ll_search">
+
+				<EditText
+                    android:id="@+id/edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/searchbox_bj"
+                    android:hint="请输入搜索内容"
+                    android:maxLength="20"
+                    android:paddingLeft="15dp"
+                    android:singleLine="true"
+                    android:textSize="12sp" 
+                    android:layout_centerVertical="true"
+                    />
+				
+				<ImageView
+                    android:id="@+id/imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/delete"
+                    android:visibility="gone" />
+
+				</RelativeLayout>
+				
+			</LinearLayout>
+			
+			<TextView 
+	        android:id="@+id/tv_one"
+	     	android:layout_width="match_parent"
+	     	android:layout_height="wrap_content"
+	     	android:textColor="#CCCCCC"
+	     	android:text="热门搜索风向标"
+	     	android:background="#FFFFFF"
+	        />
+	
+			<LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="#FFFFFF"
+			    >
+			
+			     <TextView 
+	        android:id="@+id/tv_one"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:textColor="#996633"
+	     	android:text="沙拉"
+	      />
+	  <TextView 
+	      android:id="@+id/tv_two"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="卡布奇诺"
+	     	android:textColor="#FF9999"
+	      />
+	  <TextView 
+	      android:id="@+id/tv_three"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="酱拌牛肉"
+	     	android:textColor="#CCCCCC"
+	      />
+	  <TextView 
+	     	android:id="@+id/tv_four"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="凉拌黄瓜"
+	     	android:textColor="#FF6600"
+	      />
+	  <TextView 
+	     	android:id="@+id/tv_four"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="西米露"
+	     	android:textColor="#FF9933"
+	      />
+			    
+			</LinearLayout>
+			
+			<LinearLayout 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="#FFFFFF"
+			    >
+			
+			     <TextView 
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:textColor="#996633"
+	     	android:text="提拉米苏"
+	      />
+	  <TextView 
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="葡式蛋挞"
+	     	android:textColor="#FF9999"
+	      />
+	  <TextView 
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="绿茶布丁"
+	     	android:textColor="#CCCCCC"
+	      />
+	  <TextView 
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="巧克力曲奇"
+	     	android:textColor="#0066CC"
+	      />
+	
+			    
+			</LinearLayout>
+			
+			    
+				<ListView 
+				    android:id="@+id/listview"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    ></ListView>
+				
+				</LinearLayout>

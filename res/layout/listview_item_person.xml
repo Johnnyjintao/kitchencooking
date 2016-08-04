@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:zhy="http://schemas.android.com/apk/res/com.example.kitchencooking"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/listitem_selector"
+    >
+    
+    
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_launcher"
+        android:paddingLeft="0dp"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是大标题"
+        android:layout_toRightOf="@id/iv"
+        android:textSize="22sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:shadowColor="#666666"
+  		android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        />
+    
+     <com.example.kitchencooking.CircleImageView
+         xmlns:myxmlns="http://schemas.android.com/apk/res/com.example.kitchencooking"
+         android:id="@+id/iv_avatar"
+        android:layout_width="55px"
+        android:layout_height="55px"
+        android:layout_toRightOf="@id/iv"
+        android:layout_below="@id/tv_title"
+        myxmlns:border_color = "#FFFFFF"
+        android:paddingLeft="10dp"
+        android:src="@drawable/tou"
+        />
+  
+        
+        <TextView
+	    android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是正文"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_below="@id/tv_title"
+        android:textSize="15sp"
+        android:textColor="@android:color/darker_gray"
+        android:lines="2"
+        />
+        
+       
+        <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+         />
+	 
+	 
+            
+      
+	
+	 
+</RelativeLayout>

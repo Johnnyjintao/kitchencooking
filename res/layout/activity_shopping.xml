@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#333333"
+        android:gravity="center"
+        android:text="购物清单"
+        android:textSize="20sp" 
+        android:textColor="#FFFFFF"
+        />
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	 >
+        <ImageView
+            android:id="@+id/iv_shoppingche"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shoppingche"
+			android:gravity="center"
+            ></ImageView>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:lines="2"
+            android:text="购物清单里空空如也\n来挑几件好货吧！"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/iv_shoppingche"
+            android:textColor="#999999"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+	   </LinearLayout>
+        
+        
+</LinearLayout>

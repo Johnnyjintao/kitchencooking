@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#f00</color>
+    <color name="green">#0f0</color>
+    <color name="blue">#00f</color>
+    <color name="hui">#CCCCCC</color>
+    <color name="fenhong">#FF9966</color>
+    
+    <color name="page_back">#fff2f2f2</color>
+    <color name="logo_text_color">#ff7f7f7f</color>
+    <color name="white">#ffffffff</color>
+    <color name="login_with_other_plat_text_color">#ff383838</color>
+</resources>

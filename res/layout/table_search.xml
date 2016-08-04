@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/ll_options"
+	    android:layout_below="@+id/ll_search"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:background="#333333"
+	    android:orientation="horizontal"
+	    >
+	  <TextView 
+	        android:id="@+id/tv_one"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:textColor="#FFCCCC"
+	     	android:layout_marginTop="20dp"
+	     	android:text="沙拉"
+	     	android:textSize="40px"
+	      />
+	  <TextView 
+	      android:id="@+id/tv_two"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="卡布奇诺"
+	     	android:textColor="#FF9999"
+	     	android:textSize="40px"
+	     	android:layout_marginTop="18dp"
+	      />
+	  <TextView 
+	      android:id="@+id/tv_three"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="酱拌牛肉"
+	     	android:textColor="#CCCCCC"
+	     	android:textSize="40px"
+	     	android:layout_marginTop="20dp"
+	      />
+	  <TextView 
+	     	android:id="@+id/tv_four"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:padding="10dp"
+	     	android:text="凉拌黄瓜"
+	     	android:textColor="#FF6600"
+	     	android:textSize="40px"
+	     	android:layout_marginTop="15dp"
+	      />
+	  
+	</LinearLayout>
+    
+    
+
